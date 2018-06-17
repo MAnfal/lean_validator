@@ -1,10 +1,18 @@
 const path = require('path');
 
+let mode = 'development';
+
 module.exports = {
-  entry: './src/index.js',
-  mode: 'development',
+  entry: {
+    'lean_validator': './src/lean_validator.js',
+    'jquery.lean_validator': './src/jquery.lean_validator.js'
+  },
+  mode: mode,
   output: {
-    filename: 'jquery.leanvalidator.js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist')
-  }
+  },
+  module: {
+    
+  },
 };
