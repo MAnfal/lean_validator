@@ -3,7 +3,6 @@ const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 
 let config = {
   entry: {
-    'lean_validator': './src/lean_validator.js',
     'jquery.lean_validator': './src/jquery.lean_validator.js'
   },
 
