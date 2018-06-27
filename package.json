@@ -14,7 +14,10 @@
     "type": "git",
     "url": "git@github.com-manfal:MAnfal/lean_validator.git"
   },
-  "keywords": [],
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
